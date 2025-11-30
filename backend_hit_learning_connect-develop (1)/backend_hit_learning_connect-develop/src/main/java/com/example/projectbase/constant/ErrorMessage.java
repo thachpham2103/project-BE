@@ -36,7 +36,7 @@ public class ErrorMessage {
         public static final String ERR_USER_NAME_BLANK = "User name must not blank";
         public static final String ERR_USER_NAME_EXISTED = "exception.username.existed";
         public static final String ERR_EMAIL_EXISTED = "exception.user.email.existed";
-        public static final String ERR_DELETE_FAIL = "Delete user fail";
+        public static final String ERR_DELETE_FAIL = "Delete user failed";
         public static final String ERR_USER_NOT_FOUND = "exception.user.not.found";
         public static final String ERR_CREATE_FAIL = "Create user fail";
         public static final String ERR_NOT_FOUND = "user not found";
