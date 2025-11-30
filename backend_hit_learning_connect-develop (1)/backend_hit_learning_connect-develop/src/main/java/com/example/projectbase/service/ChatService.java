@@ -1,6 +1,9 @@
 package com.example.projectbase.service;
 
 import com.example.projectbase.domain.dto.request.chat.CreateConversationRequest;
+import com.example.projectbase.domain.dto.response.chat.ConversationResponse;
+import com.example.projectbase.domain.dto.response.chat.MessageResponse;
+import com.example.projectbase.domain.dto.request.chat.SendMessageRequest;
 
 import java.util.List;
 
