@@ -18,9 +18,9 @@ public class ResponseMessage {
     public static class Contest{
 
         public static final String SUCCESS = "successfull!";
-        public static final String CREATE_SUCCESS = "create successfull";
-        public static final String UPDATE_SUCCESS = "update successfull";
-        public static final String DELETE_SUCCESS = "delete successfull";
+        public static final String CREATE_SUCCESS = "created successfull";
+        public static final String UPDATE_SUCCESS = "updated successfull";
+        public static final String DELETE_SUCCESS = "deleted successfull";
         public static final String FETCH_SUCCESS = "Data retrieved successfully.";
         public static final String JOIN_CONTEST="Join contest successfully";
         public static final String SUBMIT_FILE="Submit file successfull";
