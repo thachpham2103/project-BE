@@ -68,12 +68,12 @@ public class ProjectBaseApplication {
                         .lastLogin(LocalDateTime.now())
                         .email(userInfo.getEmail())
                         .build();
-                User user = User.builder().username("DinhvuongUser")
+                User user = User.builder().username("adminQuyen")
                         .password(passwordEncoder.encode("User"))
-                        .fullName("Dinh Van Vuong")
+                        .fullName("Ly Ngoc Quyen")
                         .role(roleRepository.findByRoleName(RoleConstant.USER))
                         .lastLogin(LocalDateTime.now())
-                        .email("Vuongdz20k5@gmail.com")
+                        .email("lyngocquyen02102005@gmail.com")
                         .build();
 
                 userRepository.save(user);
