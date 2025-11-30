@@ -21,6 +21,7 @@ import jakarta.persistence.EntityNotFoundException;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springdoc.api.annotations.ParameterObject;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
 import org.springframework.data.web.PageableDefault;
@@ -39,6 +40,7 @@ import org.springframework.web.multipart.MultipartFile;
 
 public class ContestAdminController {
 
+//    @Autowired
     private final ContestService service;
 
     @Operation(summary = "Api get all contest")
